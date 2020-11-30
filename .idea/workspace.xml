@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de255407-099a-4f12-9edd-8f43e52abc5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/authorization-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic/authorization-code.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +16,22 @@
       <file leaf-file-name="authorization-code.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
+            <state relative-caret-position="-6">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user-grant-type.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generic/user-grant-type.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -64,8 +73,9 @@
         <option value="$PROJECT_DIR$/Generic PHP Examples/authorization-code.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/generic/assets/styles.css" />
-        <option value="$PROJECT_DIR$/generic/authorization-code.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/generic/authorization-code.php" />
+        <option value="$PROJECT_DIR$/generic/user-grant-type.php" />
       </list>
     </option>
   </component>
@@ -100,12 +110,6 @@
               <item name="php-oauth-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-oauth-examples" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="generic" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="php-oauth-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php-oauth-examples" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="generic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -143,12 +147,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606706869433</updated>
       <workItem from="1606706874795" duration="476000" />
-      <workItem from="1606707941590" duration="3248000" />
+      <workItem from="1606707941590" duration="4938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3724000" />
+    <option name="totallyTimeSpent" value="5414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="25" width="1562" height="970" extended-state="0" />
@@ -210,13 +214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -224,6 +221,20 @@
             <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic/user-grant-type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
         </state>
       </provider>
     </entry>
