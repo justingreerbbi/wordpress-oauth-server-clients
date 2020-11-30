@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de255407-099a-4f12-9edd-8f43e52abc5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/assets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/assets/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/authorization-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/authorization-code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/user-grant-type.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/user-grant-type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +17,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="authorization-code.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
+        <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-6">
               <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
@@ -23,19 +26,10 @@
         </entry>
       </file>
       <file leaf-file-name="user-grant-type.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generic/user-grant-type.php">
+        <entry file="file://$PROJECT_DIR$/generic-examples/user-grant-type.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="565">
               <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -52,17 +46,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generic/assets/styles.css">
+        <entry file="file://$PROJECT_DIR$/generic-examples/assets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
@@ -80,12 +74,12 @@
       <list>
         <option value="$PROJECT_DIR$/Generic PHP Examples/assets/styles.css" />
         <option value="$PROJECT_DIR$/Generic PHP Examples/authorization-code.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/generic/assets/styles.css" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/generic/authorization-code.php" />
         <option value="$PROJECT_DIR$/generic/user-grant-type.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -119,7 +113,13 @@
             <path>
               <item name="php-oauth-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-oauth-examples" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="generic" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generic-examples" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="php-oauth-examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-oauth-examples" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="generic-examples" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -157,12 +157,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606706869433</updated>
       <workItem from="1606706874795" duration="476000" />
-      <workItem from="1606707941590" duration="5104000" />
+      <workItem from="1606707941590" duration="5419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5580000" />
+    <option name="totallyTimeSpent" value="5895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="25" width="1562" height="970" extended-state="0" />
@@ -196,31 +196,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
+    <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generic/assets/styles.css">
+    <entry file="file://$PROJECT_DIR$/generic-examples/assets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generic/assets/styles.css">
+    <entry file="file://$PROJECT_DIR$/generic-examples/assets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -234,24 +227,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
+    <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
           <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generic/user-grant-type.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic-examples/user-grant-type.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="94" column="29" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>

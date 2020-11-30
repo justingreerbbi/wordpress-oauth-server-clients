@@ -16,7 +16,8 @@
 <hr/>
 
 <h3>Grant Type Examples</h3>
-<a href="generic/authorization-code.php">Authorization Code Grant Type</a>
+<a href="generic-examples/authorization-code.php">Authorization Code Grant Type</a> <br/>
+<a href="generic-examples/user-grant-type.php">User Credentials Grant Type</a>
 
 </body>
 </html>
