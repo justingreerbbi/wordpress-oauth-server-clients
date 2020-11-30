@@ -37,10 +37,27 @@ if ( isset( $_GET['code'] ) ) {
 	curl_setopt( $curl, CURLOPT_REFERER, 'http://www.example.com/1' );
 
 	$curl_response = curl_exec( $curl );
-	$response      = json_decode( $curl_response );
+	$code_response = json_decode( $curl_response );
 	curl_close( $curl );
 
-	$tmp = $response;
+	$tmp = $code_response;
+
+	/*
+	 * If there is no error in the return, the following will request the user information from the server
+	 */
+	$curl = curl_init( $server_url . '/oauth/me/?access_token=' . $tmp->access_token );
+
+	curl_setopt( $curl, CURLOPT_RETURNTRANSFER, true );
+	curl_setopt( $curl, CURLOPT_POST, false );
+	curl_setopt( $curl, CURLOPT_SSL_VERIFYPEER, false );
+	curl_setopt( $curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 GTB5' );
+	curl_setopt( $curl, CURLOPT_REFERER, 'http://www.example.com/1' );
+
+	$curl_response  = curl_exec( $curl );
+	$token_response = json_decode( $curl_response );
+	curl_close( $curl );
+
+	$user = $token_response;
 }
 ?>
 <!doctype html>
@@ -61,9 +78,14 @@ if ( isset( $_GET['code'] ) ) {
 <hr/>
 
 <?php if ( ! is_null( $tmp ) ) {
-    print '<p>Below is the return from the OAuth Server. This information can be used to request the user information.</p>';
+	print '<p>Below is the return from the OAuth Server. This information can be used to request the user information.</p>';
 	print '<pre>';
 	print_r( $tmp );
+	print '</pre>';
+
+	print '<p>Below is authorized user information given the access token provided. This information is what is used to log the user into the client.';
+	print '<pre>';
+	print_r( $user );
 	print '</pre>';
 
 	print '<a href="' . $redirect_uri . '">Return to Form</a>';

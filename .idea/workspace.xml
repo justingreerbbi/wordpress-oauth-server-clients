@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de255407-099a-4f12-9edd-8f43e52abc5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic PHP Examples/assets/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/generic/assets/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic PHP Examples/authorization-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic/authorization-code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/authorization-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic/authorization-code.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +16,8 @@
       <file leaf-file-name="authorization-code.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="562">
+              <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
             </state>
           </provider>
         </entry>
@@ -132,12 +130,12 @@
       <option name="presentableId" value="Default" />
       <updated>1606706869433</updated>
       <workItem from="1606706874795" duration="476000" />
-      <workItem from="1606707941590" duration="2234000" />
+      <workItem from="1606707941590" duration="2738000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2710000" />
+    <option name="totallyTimeSpent" value="3214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="25" width="1562" height="970" extended-state="0" />
@@ -209,8 +207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generic/authorization-code.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="562">
+          <caret line="85" column="149" selection-start-line="85" selection-start-column="149" selection-end-line="85" selection-end-column="149" />
         </state>
       </provider>
     </entry>
