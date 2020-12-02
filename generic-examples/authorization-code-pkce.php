@@ -71,10 +71,10 @@ if ( isset( $_GET['code'] ) ) {
 	curl_setopt( $curl, CURLOPT_REFERER, 'http://www.example.com/1' );
 
 	$curl_response = curl_exec( $curl );
-
-	print_r( $curl_response );
 	$code_response = json_decode( $curl_response );
 	curl_close( $curl );
+
+	$tmp = $code_response;
 
 	/*
 	 * If there is no error in the return, the following will request the user information from the server

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de255407-099a-4f12-9edd-8f43e52abc5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic-examples/authorization-code.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/authorization-code.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic-examples/authorization-code-pkce.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/authorization-code-pkce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic-examples/verifier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/verifier.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="authorization-code-pkce.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code-pkce.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+            <state relative-caret-position="119">
+              <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -113,12 +113,12 @@
       <workItem from="1606706874795" duration="476000" />
       <workItem from="1606707941590" duration="5792000" />
       <workItem from="1606753870018" duration="357000" />
-      <workItem from="1606926315922" duration="3169000" />
+      <workItem from="1606926315922" duration="3210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9794000" />
+    <option name="totallyTimeSpent" value="9835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="64" width="1680" height="970" extended-state="0" />
@@ -292,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code-pkce.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        <state relative-caret-position="119">
+          <caret line="72" column="40" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
         </state>
       </provider>
     </entry>
