@@ -10,51 +10,16 @@ $redirect_uri = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_S
 $tmp = null;
 
 /**
- * PCKE INFORMATION
- *
- * code_challenge_method = s256 | plain. Server should default to "plain" if not presented making this parameter optional
- */
-function base64url_encode( $data ) {
-	return rtrim( strtr( base64_encode( $data ), '+/', '-_' ), '=' );
-}
-
-function base64url_decode( $data ) {
-	return base64_decode( str_pad( strtr( $data, '-_', '+/' ), strlen( $data ) % 4, '=', STR_PAD_RIGHT ) );
-}
-
-function get_code_verifier() {
-	if ( empty( $_GET['code'] ) ) {
-		unlink( dirname( __FILE__ ) . '/verifier.txt' );
-
-		$str      = 'abcdefghijk';
-		$shuffled = str_shuffle( $str );
-		$f        = fopen( dirname( __FILE__ ) . '/verifier.txt', 'w' );
-		fwrite( $f, $shuffled );
-		fclose( $f );
-
-		return $shuffled;
-	} else {
-		return file_get_contents( 'verifier.txt' );
-	}
-}
-
-$code_verifier  = get_code_verifier();
-$hash           = hash( 'sha256', $code_verifier, true );
-$code_challenge = rtrim( strtr( base64_encode( $hash ), "+/", "-_" ), "=" );
-
-/**
  * This section is demonstrating the basics of capturing the authorization code returned from WP OAuth Server.
  * It also shows how to use cURL to use the code to retrieve an access token.
  */
 if ( isset( $_GET['code'] ) ) {
 
 	$curl_post_data = array(
-		'grant_type'    => 'authorization_code',
-		'code'          => $_GET['code'],
-		'redirect_uri'  => $redirect_uri,
-		'client_id'     => $client_id,
-		//'client_secret' => $client_secret,
-		'code_verifier' => $code_verifier,
+		'grant_type'   => 'authorization_code',
+		'code'         => $_GET['code'],
+		'redirect_uri' => $redirect_uri,
+		'client_id'    => $client_id
 	);
 
 
@@ -131,8 +96,6 @@ if ( isset( $_GET['code'] ) ) {
         <input type="hidden" name="response_type" value="code"/>
         <input type="hidden" name="client_id" value="<?php echo $client_id; ?>"/>
         <input type="hidden" name="redirect_uri" value="<?php echo $redirect_uri; ?>"/>
-        <input type="hidden" name="code_challenge" value="<?php echo $code_challenge; ?>"/>
-        <input type="hidden" name="code_challenge_method" value="s256"/>
         <button type="submit">Log In using Single Sign On</button>
     </form>
 <?php } ?>
