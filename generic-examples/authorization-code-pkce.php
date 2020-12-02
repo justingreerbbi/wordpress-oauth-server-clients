@@ -76,8 +76,6 @@ if ( isset( $_GET['code'] ) ) {
 	$code_response = json_decode( $curl_response );
 	curl_close( $curl );
 
-	$tmp = $code_response;
-
 	/*
 	 * If there is no error in the return, the following will request the user information from the server
 	 */
