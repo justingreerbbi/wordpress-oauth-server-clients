@@ -16,8 +16,22 @@
 <hr/>
 
 <h3>Grant Type Examples</h3>
-<a href="generic-examples/authorization-code.php">Authorization Code Grant Type</a> <br/>
-<a href="generic-examples/user-grant-type.php">User Credentials Grant Type</a>
-
+<ul>
+    <li>
+        <a href="generic-examples/authorization-code.php">Authorization Code Grant Type</a>
+    </li>
+    <li>
+        <a href="generic-examples/user-grant-type.php">User Credentials Grant Type</a>
+    </li>
+    <li>
+        <a href="generic-examples/authorization-code-pkce.php">Authorization Code Grant Type (with PKCE)</a>
+    </li>
+    <li>
+        <a href="generic-examples/authorization-code-pkce-public-client.php">Authorization Code Grant Type (with PKCE) -
+            Public
+            Client
+        </a>
+    </li>
+</ul>
 </body>
 </html>
