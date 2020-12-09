@@ -32,6 +32,9 @@
             Client
         </a>
     </li>
+    <li>
+        <a href="generic-examples/authorization-code-implicit.php">Authorization Code Implicit</a>
+    </li>
 </ul>
 </body>
 </html>
