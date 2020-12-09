@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de255407-099a-4f12-9edd-8f43e52abc5d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/generic-examples/verifier.txt" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/verifier.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic-examples/authorization-code-implicit.php" beforeDir="false" afterPath="$PROJECT_DIR$/generic-examples/authorization-code-implicit.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="authorization-code-implicit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code-implicit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+            <state relative-caret-position="525">
+              <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -26,7 +25,7 @@
       <file leaf-file-name="authorization-code.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="435">
               <caret line="29" column="28" selection-end-line="107" />
             </state>
           </provider>
@@ -72,7 +71,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="25" />
+    <option name="y" value="62" />
     <option name="width" value="1680" />
     <option name="height" value="970" />
   </component>
@@ -84,6 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,7 +100,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,17 +135,18 @@
       <workItem from="1606753870018" duration="357000" />
       <workItem from="1606926315922" duration="5590000" />
       <workItem from="1607088508069" duration="7570000" />
+      <workItem from="1607489791347" duration="588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19785000" />
+    <option name="totallyTimeSpent" value="20373000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1680" height="970" extended-state="0" />
+    <frame x="0" y="62" width="1680" height="970" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14224665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14346765" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -174,6 +174,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code-implicit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="28" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="94" selection-start-line="35" selection-start-column="94" selection-end-line="35" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code-pkce-public-client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
@@ -339,7 +360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="435">
           <caret line="29" column="28" selection-end-line="107" />
         </state>
       </provider>
@@ -353,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generic-examples/authorization-code-implicit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+        <state relative-caret-position="525">
+          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
         </state>
       </provider>
     </entry>

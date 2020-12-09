@@ -93,7 +93,7 @@ $redirect_uri = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_S
     }
 
     // Make a call using our token to the Echo API
-    function getUserInfo(token) {
+    function getUserInfo(token, _cb) {
         $.ajax({
             url: settings.user_endpoint,
             method: "GET",
@@ -101,18 +101,21 @@ $redirect_uri = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_S
                 "Authorization": "Bearer " + token
             },
             success: function (response) {
+                _cb(JSON.stringify(response, null, 2));
                 $("#response-code").html(JSON.stringify(response, null, 2));
-                Prism.highlightAll();
             }
         });
     }
 
     $(document).ready(function () {
-        var access_token = new URLSearchParams(window.location.hash).get('access_token');
-        if (getParam('access_token') != undefined) {
-            var userInfo = getUserInfo(access_token);
-            //console.log('Access Token Found');
+        var access_token = getParam('access_token');
+        if (access_token != undefined) {
+            getUserInfo(access_token, function (user_info) {
+                var user = $.parseJSON(user_info);
+                console.log(user);
+            });
         }
+
     });
 </script>
 </body>
