@@ -1,10 +1,5 @@
 <?php
-/**
- * Below is constants that you should change to meet your needs
- */
-$server_url    = 'https://wordpress.local';
-$client_id     = 'mvJsGPYZNHgRVSeoNQfrT4FN6wpunvVJ0FbHu9Hi';
-$client_secret = 'RX9NQncDdr47wKUCgk6EQ2nRHyycIfuAdDo31AGf';
+require_once( dirname( __FILE__ ) . '/config.php' );
 
 $redirect_uri = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 
@@ -135,7 +130,7 @@ if ( isset( $_GET['code'] ) ) {
         <input type="hidden" name="client_id" value="<?php echo $client_id; ?>"/>
         <input type="hidden" name="redirect_uri" value="<?php echo $redirect_uri; ?>"/>
         <input type="hidden" name="code_challenge" value="<?php echo $code_challenge; ?>"/>
-        <input type="hidden" name="code_challenge_method" value="s256"/>
+        <input type="hidden" name="code_challenge_method" value="S256"/>
         <button type="submit">Log In using Single Sign On</button>
     </form>
 <?php } ?>

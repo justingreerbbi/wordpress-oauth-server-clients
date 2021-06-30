@@ -1,10 +1,5 @@
 <?php
-/**
- * Below is constants that you should change to meet your needs
- */
-$server_url    = 'https://wordpress.local';
-$client_id     = '73xvzrdsDk9Jaf08f8hrCirV9uZietCeZvryB5TG';
-$client_secret = 'y3yRbj35d90uVLCCsdHK5IQ2kCHMlEo0tcUTcNYw';
+require_once( dirname( __FILE__ ) . '/config.php' );
 
 $redirect_uri = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/wordpress-oauth-server-clients.iml" filepath="$PROJECT_DIR$/.idea/wordpress-oauth-server-clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oauth.local.iml" filepath="$PROJECT_DIR$/.idea/oauth.local.iml" />
     </modules>
   </component>
 </project>
